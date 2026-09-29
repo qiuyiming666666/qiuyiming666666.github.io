@@ -7,8 +7,53 @@
   <link rel="icon" href="https://qiuyiming666666.github.io/Profile/Profile/img/K13.png" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+
+  section[id] {
+    scroll-margin-top: 80px;
+  }
+</style>
 </head>
 <body>
+  
+<nav class="navbar navbar-expand-lg bg-white sticky-top border-bottom">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Yiming Qiu</a>
+
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#siteNav"
+            aria-controls="siteNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="siteNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#publications">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#conference">Conference</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#teaching">Teaching</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
   <!-- Header -->
   <header class="mt-4 p-5 bg-secondary text-white">
     <div class="container">
@@ -16,7 +61,7 @@
         <div class="col-sm-3 text-center text-sm-start">
          <img src="img/yiming.jpg"
      alt="Profile photo of Yiming Qiu"
-     style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover; object-position: center; display: block; margin: 0 auto;" />
+     style="width: 220px; max-width: 100%; aspect-ratio: 11 / 14; object-fit: cover; object-position: center; border-radius: 12px; display: block; margin: 0 auto;" />
         </div>
         <div class="col-sm-9">
           <h1 class="mb-1">Yiming Qiu</h1>
@@ -27,7 +72,7 @@
     </div>
   </header>
 
-  <!-- About -->
+ <section id="about" class="container mt-5">
   <section class="container mt-5">
     <div class="row">
       <div class="col-sm-3">
@@ -49,7 +94,7 @@
     </div>
   </section>
 
-  <!-- Education -->
+  <section id="education" class="container mt-5">
   <section class="container mt-5">
     <div class="row">
       <div class="col-sm-3">
@@ -67,7 +112,7 @@
     </div>
   </section>
 
-<!-- Publications -->
+<section id="publications" class="container mt-5">
 <section class="container mt-5">
   <div class="row">
     <div class="col-sm-3">
@@ -100,7 +145,7 @@
   </div>
 </section>
   
-  <!-- Conference -->
+  <section id="conference" class="container mt-5">
   <section class="container mt-5">
     <div class="row">
       <div class="col-sm-3">
@@ -112,7 +157,7 @@
     </div>
   </section>
 
-  <!-- Teaching -->
+  <section id="teaching" class="container mt-5 mb-5">
   <section class="container mt-5 mb-5">
     <div class="row">
       <div class="col-sm-3">
